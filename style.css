@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     margin-top: 10px;
@@ -9,33 +13,42 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.round {
+    font-size: 30px;
+} 
 
 .player1 {
     border: outset;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     text-align: left;
     padding: 10px;
-    
 }
 
 .player2 {
     border: outset;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     text-align: right;
     padding: 10px;
 }
 
+.rows {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
 .column {
-    display: inline-block;
     text-align: center;
     background-color: rgb(235, 202, 207);
-    width: 60px;
-    height: 60px;
-    margin: 2px;
-    padding: 40px;
+    width: 150px;
+    height: 150px;
+    margin: 2px 2px 2px 0px;
+    padding: 35px;
     font-size: 60px;
+ 
 }
 
 .restart {
@@ -47,4 +60,5 @@ body {
     border-radius: 3px;
     background-color: rgb(88, 88, 112);
     color: rgb(235, 202, 207);
+    font-weight: bolder;
 }
