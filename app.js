@@ -25,43 +25,70 @@ $(document).ready(function () {
 
 
             // Count player moves
-            console.log(("total_moves = " + total_moves++)+" player1 = " + playerOneCount++)
-            
+            console.log(("total_moves = " + total_moves++) + " player1 = " + playerOneCount++)
+
 
         } else {
             p2 = $(this).text(playerTwo)
             // Count player moves
-            console.log(("total_moves = " + total_moves++)+ " player2 = " + playerTwoCount++ )
+            console.log(("total_moves = " + total_moves++) + " player2 = " + playerTwoCount++)
 
         }
-        
+
 
         // Count Total moves and end game if more than 8
-        if(total_moves >= 5){
+        if (total_moves >= 5) {
+            // 0-1-2
             if ($(".column")[0].innerHTML === $(".column")[1].innerHTML &&
-        $(".column")[0].innerHTML === $(".column")[2].innerHTML) {
-            alert(" we hava a winner");
-        }
-        if ($(".column")[0].innerHTML === $(".column")[3].innerHTML &&
-        $(".column")[0].innerHTML === $(".column")[6].innerHTML) {
-            alert(" we hava a winner");
-        }
-        else if (total_moves == 9) {
+                $(".column")[0].innerHTML === $(".column")[2].innerHTML) {
+                alert(" we hava a winner");
+            }
+            //0-3-6
+            else if ($(".column")[0].innerHTML === $(".column")[3].innerHTML &&
+                $(".column")[0].innerHTML === $(".column")[6].innerHTML) {
+                alert(" we hava a winner");
+            } //0-4-8
+            else if ($(".column")[0].innerHTML === $(".column")[4].innerHTML &&
+                $(".column")[0].innerHTML === $(".column")[8].innerHTML) {
+                alert(" we hava a winner");
+            }//2-4-6
+            else if ($(".column")[2].innerHTML === $(".column")[4].innerHTML &&
+                $(".column")[2].innerHTML === $(".column")[6].innerHTML) {
+                alert(" we hava a winner");
+            } //3-4-5
+            else if ($(".column")[3].innerHTML === $(".column")[4].innerHTML &&
+                $(".column")[3].innerHTML === $(".column")[5].innerHTML) {
+                alert(" we hava a winner");
+            }//6-7-8
+            else if ($(".column")[6].innerHTML === $(".column")[7].innerHTML &&
+                $(".column")[6].innerHTML === $(".column")[8].innerHTML) {
+                alert(" we hava a winner");
+            } //1-4-7
+            else if ($(".column")[1].innerHTML === $(".column")[4].innerHTML &&
+                $(".column")[1].innerHTML === $(".column")[7].innerHTML) {
+                alert(" we hava a winner");
+            } //2-5-8
+            else if ($(".column")[2].innerHTML === $(".column")[5].innerHTML &&
+                $(".column")[2].innerHTML === $(".column")[8].innerHTML) {
+                alert(" we hava a winner");
+            }
 
-            console.log("Game Over")
-        }
-    }
+            else if (total_moves == 9) {
 
-});
-   
+                console.log("Game Over")
+            }
+        }
+
+    });
+
     //innerHTML
     //textContent
 
     //////////////////////////////////////
     // const winner = function () {
     //     const win = [[0, 1, 2], [4, 5, 6], [7, 8, 9],
-    //     [1, 4, 7], [2, 5, 8], [3, 6, 9],
-    //     [1, 5, 9], [3, 5, 7],]; // return the winner 
+    //     [Don 1, 4, 7], [2, 5, 8], [3, 6, 9],
+    //     [Done 1, 5, 9], [3, 5, 7],]; // return the winner 
 
     // }
 
