@@ -23,9 +23,16 @@ body {
 }
 
 .start {
-    background-color: rgb(25, 24, 24) ;
-    border: solid black;
-    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    color:white;
+    background-color:transparent;
+    text-align: center;
+    cursor:pointer;
+    
+    /* align-items: center; */
+    border:none;
+    
 
 }
 .round {
@@ -78,9 +85,9 @@ body {
     font-weight: bolder;
 }
 
-@media(max-width:960px) {
+/* @media(max-width:960px) {
     body{
         padding: 3rem;
         
     }
-}
+} */

@@ -1,9 +1,5 @@
 $(document).ready(function () {
-    //     let grid = [
-    //         [" ", " ", " "],
-    //         [" ", " ", " "],
-    //        [" ", " ", " "]
-    //    ];
+
     let playerOne = "X";
     let playerTwo = "O";
     let playerOneCount = 1;
@@ -41,56 +37,88 @@ $(document).ready(function () {
             // 0-1-2
             if ($(".column")[0].innerHTML === $(".column")[1].innerHTML &&
                 $(".column")[0].innerHTML === $(".column")[2].innerHTML) {
-                alert(" we hava a winner");
-            }
+                if ($(".column")[0].innerHTML === "X") {
+                    console.log(" The winner is Player one")
+                   
+                }
+                else { console.log(" The winner is Player Two")
+
+                }  $(".column").off('click');
+            } 
             //0-3-6
             else if ($(".column")[0].innerHTML === $(".column")[3].innerHTML &&
                 $(".column")[0].innerHTML === $(".column")[6].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+                    
+    
+                    } $(".column").off('click');
             } //0-4-8
             else if ($(".column")[0].innerHTML === $(".column")[4].innerHTML &&
                 $(".column")[0].innerHTML === $(".column")[8].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    } $(".column").off('click');
             }//2-4-6
             else if ($(".column")[2].innerHTML === $(".column")[4].innerHTML &&
                 $(".column")[2].innerHTML === $(".column")[6].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    } $(".column").off('click');
             } //3-4-5
             else if ($(".column")[3].innerHTML === $(".column")[4].innerHTML &&
                 $(".column")[3].innerHTML === $(".column")[5].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    } $(".column").off('click');
             }//6-7-8
             else if ($(".column")[6].innerHTML === $(".column")[7].innerHTML &&
                 $(".column")[6].innerHTML === $(".column")[8].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    }
             } //1-4-7
             else if ($(".column")[1].innerHTML === $(".column")[4].innerHTML &&
                 $(".column")[1].innerHTML === $(".column")[7].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    } $(".column").off('click');
             } //2-5-8
             else if ($(".column")[2].innerHTML === $(".column")[5].innerHTML &&
                 $(".column")[2].innerHTML === $(".column")[8].innerHTML) {
-                alert(" we hava a winner");
+                    if ($(".column")[0].innerHTML === "X") {
+                        console.log(" The winner is Player one")
+                    }
+                    else { console.log(" The winner is Player Two")
+    
+                    } $(".column").off('click');
             }
 
             else if (total_moves == 9) {
 
-                console.log("Game Over")
+                console.log("It's a Draw")
             }
         }
 
     });
 
-    //innerHTML
-    //textContent
-
-    //////////////////////////////////////
-    // const winner = function () {
-    //     const win = [[0, 1, 2], [4, 5, 6], [7, 8, 9],
-    //     [Don 1, 4, 7], [2, 5, 8], [3, 6, 9],
-    //     [Done 1, 5, 9], [3, 5, 7],]; // return the winner 
-
-    // }
 
 
 
@@ -103,20 +131,8 @@ $(document).ready(function () {
 
 });
 
-    // for (let i = 0; i<3; i++) {
-    //     if (grid[i][0] !== " " && )
-    // }
     // draw if counter === 9  an !=win
 
-    // }
-
-    // grid
-    // [
-    //    [[0][0],[0][1],[0][2]]
-    //    [[1][0],[1][1],[1][2]]
-    //    [[2][0],[2][1],[2][2]]
-    //   
-    // ]
 
 
 
