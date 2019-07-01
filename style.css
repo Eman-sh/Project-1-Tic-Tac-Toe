@@ -1,23 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
 #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
-    filter: blur(6px);
-     
-  }
+    /* filter: blur(3px); */
+}
 
 body {
     text-align: center;
     margin-top: 10px;
-    background-color:black;
+    background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -31,73 +31,72 @@ body {
     text-align: center;
     height: 1600;
     width: 1000;
-
-
 }
 
 .start {
     font-family: fantasy;
-    font-size: 20px;
-    color:white;
-    background-color:transparent;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
     text-align: center;
-    cursor:pointer;
-    border:none;
-    
+    cursor: pointer;
+    border: none;
+}
+
+.GameName {
+    font-size: 40px;
+    color:silver;
+    /* text-shadow: 8px 8px 8px rgb(134, 130, 130); */
 
 }
-.round {
-    font-size: 30px;
-} 
 
 h3 {
     color: antiquewhite;
-
 }
 
 .player1 {
     border: outset;
-    width: 160px;
+    width: 190px;
     height: 200px;
-    text-align: center;
-    padding: 10px;
+    /* text-align: center;
+    padding: 0px; */
 }
 
 .player2 {
     border: outset;
-    width: 160px;
+    width: 190px;
     height: 200px;
-    text-align: center;
-    padding: 10px;
+    /* text-align: center;
+    padding: 10px; */
 }
 
 .rows {
     display: flex;
     justify-content: center;
     filter: blur(0.2px);
-    
 }
 
 .column {
+    opacity: 10%;
     text-align: center;
-    background-color:rgb(7, 7, 34);
+    background-color: black;
     color: silver;
     width: 150px;
     height: 150px;
-    margin: 2px 2px 2px 0px;
-    padding: 35px;
-    font-size: 60px;
-    
+    margin:3px 3px 3px 3px;
+    padding: 20px;
+    font-size: 80px;
+    text-shadow: 8px 8px 8px rgb(134, 130, 130);
 }
 
 .restart {
     font-family: fantasy;
-    font-size: 40px;
-    color:white;
-    background-color:transparent;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
     text-align: center;
-    cursor:pointer;
-    border:none;
+    cursor: pointer;
+    border: none;
     padding: 40px;
 }
 
