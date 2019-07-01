@@ -34,18 +34,25 @@ $(document).ready(function () {
             console.log(("total_moves = " + total_moves++)+ " player2 = " + playerTwoCount++ )
 
         }
-         });
+        
 
         // Count Total moves and end game if more than 8
-        if ($(".column")[0].innerHTML === $(".column")[1].innerHTML || $(".column")[2].innerHTML) {
-            return true;
+        if(total_moves >= 5){
+            if ($(".column")[0].innerHTML === $(".column")[1].innerHTML &&
+        $(".column")[0].innerHTML === $(".column")[2].innerHTML) {
+            alert(" we hava a winner");
+        }
+        if ($(".column")[0].innerHTML === $(".column")[3].innerHTML &&
+        $(".column")[0].innerHTML === $(".column")[6].innerHTML) {
+            alert(" we hava a winner");
         }
         else if (total_moves == 9) {
 
             console.log("Game Over")
         }
+    }
 
-
+});
    
     //innerHTML
     //textContent
