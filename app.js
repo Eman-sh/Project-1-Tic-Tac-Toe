@@ -132,6 +132,7 @@ $(document).ready(function () {
             else if (total_moves == 9) {
 
                 alert("It's a Draw")
+                
             }
         }
 

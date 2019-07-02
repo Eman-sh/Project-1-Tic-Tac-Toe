@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic tac to</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="video">
+        <video autoplay muted loop id="myVideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="audio">
+        <audio autoplay>
+            <source src="King of the North.mp3">
+
+            </audio>
+
+    </div>
+    <div class="players">
+        <div class="player1">
+            <img src="p1.jpg" alt="player 1" height="133" width="179">
+            <h3>Night King</h3>
+        </div>
+        <div class="GameName">
+            <h1>VS</h1>
+        </div>
+        <div class="player2">
+            <img src="p2.jpg" alt="player 2" height="133" width="179">
+            <h3>Dragons</h3>
+        </div>
+    </div>
+    <br>
+    <div class="rows">
+        <div class="column" name="1" value="1"></div>
+        <div class="column"><span id="2"></span></div>
+        <div class="column"><span id="3"></span></div>
+    </div>
+    <div class="rows">
+        <div class="column"><span id="4"></span></div>
+        <div class="column"><span id="5"></span></div>
+        <div class="column"><span id="6"></span></div>
+    </div>
+
+    <div class="rows">
+        <div class="column"><span id="7"></span></div>
+        <div class="column"><span id="8"></span></div>
+        <div class="column"><span id="9"></span></div>
+    </div>
+
+    <button class="restart">NEW GAME</button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
