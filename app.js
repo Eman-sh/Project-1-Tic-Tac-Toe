@@ -39,14 +39,14 @@ const player1 = function () {
     $(".player1").css("background-color", "rgb(99, 146, 248)"),
         $(".player2").css("filter", "blur(3px)");
     $(".player2").text("defeat");
-    $("h1").text("the Lord of the Seven Kingdoms")
+    $("h1").text("Lord of the Seven Kingdoms")
 }
 
 const player2 = function () {  ///////// problem here
     $(".player2").css("background-color", "rgb(99, 146, 248"),
         $(".player1").css("filter", "blur(3px)");
     $("#p-1").text("defeat");
-    $("h1").text("the Lord of the Seven Kingdoms")
+    $("h1").text("Lord of the Seven Kingdoms")
 }
         if (total_moves >= 5) {
             // 0-1-2 
