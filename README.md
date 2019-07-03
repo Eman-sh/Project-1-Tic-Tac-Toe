@@ -1,6 +1,6 @@
 # Project-1: Tic Tac Toe
 
-No installation required, click [Tic-Tac-Toe_GOT](https://eman-sh.github.io/Project-1-Tic-Tac-Toe/) to access the game and get started!
+No installation required, click [Tic-Tac-Toe_GOT](https://eman-sh.github.io/Project-1-Tic-Tac-Toe/page1) to access the game and get started!
 
 **Requirements:**
 * Render a game board in the browser
