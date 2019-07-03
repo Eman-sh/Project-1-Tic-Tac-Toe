@@ -20,7 +20,6 @@ body {
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .players {
     height: 200px;
     display: flex;
@@ -49,9 +48,15 @@ body {
     /* text-shadow: 8px 8px 8px rgb(134, 130, 130); */
 
 }
-
-h3 {
+.h3{
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size:18px ;
     color: antiquewhite;
+    font-weight: bolder;
+
 }
 
 .player1 {
@@ -69,7 +74,12 @@ h3 {
     /* text-align: center;
     padding: 10px; */
 }
-
+img {
+    padding-top: 1px;
+    width: 180px;
+    height: 170px;   
+ 
+}
 .rows {
     display: flex;
     justify-content: center;
@@ -99,7 +109,9 @@ h3 {
     border: none;
     padding: 40px;
 }
-
+.backgroundPic{
+background-color: black;
+}
 /* @media(max-width:960px) {
     body{
         padding: 3rem;
