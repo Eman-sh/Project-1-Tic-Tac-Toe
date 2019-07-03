@@ -1,11 +1,8 @@
-# Project-1 
-
-
-##T ic Tac Toe Game 2
+# Project-1:  Tic Tac Toe Game 
 
 No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/ to access the game and get started!
 
-## Requirements: 2
+#### Requirements:
 • Render a game board in the browser
 • Switch turns between X and O 
 • Visually display which side won if a player gets three in a row, or show a draw if neither player wins
@@ -16,13 +13,13 @@ No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/
 • Use semantic markup for HTML and CSS
 • well-formatted, and well-commented code
 
-## Technologies 2
+#### Technologies 
 • HTML
 • CSS
 • JavaScript
 • jQuery
 
-## User Stories 2
+#### User Stories 
 • As a user, I should be able to start a new tic tac toe game
 • As a user, I should be able to click on a square to add X first and then O, and so on
 • As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
