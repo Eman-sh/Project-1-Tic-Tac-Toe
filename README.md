@@ -1,10 +1,10 @@
 # Project-1 
 
 Tic Tac Toe Game
+
 No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/ to access the game and get started!
 
-Requirements
-Tic Tac Toe app must:
+Requirements:
 
 • Render a game board in the browser
 • Switch turns between X and O 
@@ -17,7 +17,6 @@ Tic Tac Toe app must:
 • well-formatted, and well-commented code
 
 Technologies/Frameworks used
-
 • HTML
 • CSS
 • JavaScript
