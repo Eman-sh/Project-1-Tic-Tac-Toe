@@ -5,7 +5,7 @@
 
 No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/ to access the game and get started!
 
-## Requirements:2
+## Requirements: 2
 • Render a game board in the browser
 • Switch turns between X and O 
 • Visually display which side won if a player gets three in a row, or show a draw if neither player wins
@@ -16,7 +16,7 @@ No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/
 • Use semantic markup for HTML and CSS
 • well-formatted, and well-commented code
 
-## Technologies/Frameworks usedv2
+## Technologies 2
 • HTML
 • CSS
 • JavaScript
