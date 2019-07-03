@@ -5,7 +5,6 @@ Tic Tac Toe Game
 No installation required, click https://eman-sh.github.io/Project-1-Tic-Tac-Toe/ to access the game and get started!
 
 Requirements:
-
 • Render a game board in the browser
 • Switch turns between X and O 
 • Visually display which side won if a player gets three in a row, or show a draw if neither player wins
@@ -21,7 +20,6 @@ Technologies/Frameworks used
 • CSS
 • JavaScript
 • jQuery
-
 
 User Stories
 • As a user, I should be able to start a new tic tac toe game
