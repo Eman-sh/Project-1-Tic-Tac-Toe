@@ -1,5 +1,4 @@
-# Project-1:  
-==Tic Tac Toe Game==
+# Project-1: Tic Tac Toe Game
 
 No installation required, click [tic tac to GOT](https://eman-sh.github.io/Project-1-Tic-Tac-Toe/) to access the game and get started!
 
